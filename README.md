@@ -108,7 +108,7 @@ pip install pynvim
 
 ## Plugin Overview
 
-| Plugin | Purpose | Home | Work | Why s Needed |
+| Plugin | Purpose | Home | Work | Details |
 |--------|---------|------|------|-----------------|
 | **fff** | File picker | ✓ | ✓ | Super fast + Typo resistant + project aware file picker |
 | **neogit** | Git integration | ✓ | ✓ | Magit-style Git interface within Neovim for staging, committing, branching, and viewing diffs |
@@ -123,6 +123,7 @@ pip install pynvim
 | **startup-time** | Performance monitoring | ✓ | ✓ | Tracks and displays Neovim startup time for optimization |
 | **none-ls** | Formatting & linting | ✓ | ✓ | Provides formatting and linting capabilities as an alternative to LSP |
 | **smear-cursor** | Cursor animation | ✓ | ✓ | Smooth cursor movement with trailing effects |
+| **unified** | Unified Diff-view | ✓ | ✓ | Github style diff view |
 | **leetcode** | LeetCode integration | ✓ | ✗ | LeetCode directly inside of neovim |
 | **opencode** | sst/opencode Integration | ✓ | ✗ | Integrates with opencode cli for questions or edits in selection or view |
 | **typr** | Typing practice | ✓ | ✗ | Monkey-type inspired typing practice tool |
