@@ -162,3 +162,51 @@ set -s escape-time 0
 # Quick reload
 bind r source-file ~/.tmux.conf \; display-message "tmux.conf reloaded"
 ```
+
+
+# GHOSTTY
+```conf
+# Colors
+background = #000000
+foreground = #FFFFFF
+
+# 16-color palette (0–7 normal, 8–15 bright)
+palette = 0=#1a1a1a
+palette = 1=#f4005f
+palette = 2=#98e024
+palette = 3=#fa8419
+palette = 4=#9d65ff
+palette = 5=#f4005f
+palette = 6=#58d1eb
+palette = 7=#c4c5b5
+palette = 8=#625e4c
+palette = 9=#f4005f
+palette = 10=#98e024
+palette = 11=#e0d561
+palette = 12=#9d65ff
+palette = 13=#f4005f
+palette = 14=#58d1eb
+palette = 15=#f6f6ef
+
+# Font
+font-family = "0xProto Nerd Font"
+font-size = 14.0
+
+# Window size in terminal cells
+window-width = 90
+window-height = 30
+
+# Transparency and blur
+background-opacity = 0.7
+background-blur = true
+
+# Padding
+# window-padding-x = 0
+# window-padding-y = 20
+
+# Titlebar style (macOS)
+macos-titlebar-style = transparent
+
+# Shell
+command = "/bin/zsh -l"
+```
