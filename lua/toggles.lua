@@ -14,7 +14,7 @@ M.plugins = {
   opencode = { home = true, work = false },
 
   -- pickers
-  fff = { home = false, work = true },
+  fff = { home = true, work = true },
 }
 
 -- helper

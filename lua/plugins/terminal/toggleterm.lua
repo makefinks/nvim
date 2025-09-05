@@ -11,9 +11,6 @@ return {
       start_in_insert = true,
       close_on_exit = false,
       direction = "horizontal",
-      shellcmdflag = "-c",
-      shellquote = "",
-      shellxquote = '"',
     },
   },
 }

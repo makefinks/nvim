@@ -1,6 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
--- Customize Treesitter
+-- Customize Treesitter: ensure parsers for your common languages
 
 ---@type LazySpec
 return {
@@ -9,7 +7,21 @@ return {
     ensure_installed = {
       "lua",
       "vim",
-      -- add more arguments for adding more treesitter parsers
+      "vimdoc",
+      "query",
+      "python",
+      "javascript",
+      "typescript",
+      "tsx",
+      "json",
+      "yaml",
+      "markdown",
+      "markdown_inline",
+      "bash",
+      "html",
+      "css",
+      "toml",
+      "dockerfile",
     },
   },
 }

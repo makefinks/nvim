@@ -1,5 +1,8 @@
 local M = {}
 
+-- Seed randomness once on load
+math.randomseed(os.time())
+
 local quotes = {
   {
     author = "Donald Knuth",
@@ -76,7 +79,6 @@ local quotes = {
 }
 
 function M.get_quote()
-  math.randomseed(os.time())
   local index = math.random(#quotes)
   return quotes[index]
 end

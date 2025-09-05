@@ -7,7 +7,8 @@ opt.updatetime = 200
 opt.termguicolors = true
 
 -- Windows git bash integration (for toggleterm)
-local uname = vim.loop.os_uname()
+local uv = vim.uv or vim.loop
+local uname = uv.os_uname()
 local sysname = uname.sysname
 local is_win = sysname:match "Windows" and true or false
 

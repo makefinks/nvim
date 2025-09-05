@@ -1,6 +1,5 @@
 return {
   { import = "plugins.core" },
-  { import = "plugins.core" },
   { import = "plugins.ui" },
   { import = "plugins.typing" },
   { import = "plugins.navigation" },

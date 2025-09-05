@@ -4,7 +4,7 @@ return {
 
   -- Lazy‑load on command or event if you like, e.g.:
   -- cmd = "Snacks", event = "VeryLazy",
-  config = function()
+  opts = function()
     local quotes = require "utils.quotes"
 
     local header = [[
@@ -42,7 +42,8 @@ return {
     local quote_formatter = require "utils.quote_formatter"
     header = header .. "\n\n" .. quote_formatter.format_quote(quote.text, quote.author)
 
-    require("snacks").setup {
+    return {
+      input = { enabled = true },
       dashboard = {
         preset = {
           header = header,

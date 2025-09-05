@@ -15,9 +15,7 @@ return {
     max_threads = 8,
     prompt = "⚡ ",
   },
-  -- No need to lazy-load with lazy.nvim.
-  -- This plugin initializes itself lazily.
-  lazy = false,
+  -- Let the plugin lazy-load on demand (keys trigger load)
   keys = {
     {
       "ff", -- try it if you didn't it is a banger keybinding for a picker
