@@ -5,6 +5,7 @@ opt.fileencodings = { "utf-8" }
 opt.fileformats = { "unix", "dos" }
 opt.updatetime = 200
 opt.termguicolors = true
+vim.opt.laststatus = 0
 
 -- Windows git bash integration (for toggleterm)
 local uv = vim.uv or vim.loop

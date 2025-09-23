@@ -8,10 +8,10 @@ M.plugins = {
   -- fun
   leetcode = { home = true, work = false },
   typr = { home = true, work = false },
-  smear_cursor = { home = true, work = false },
 
   -- ai
   opencode = { home = true, work = false },
+  copilot = { home = true, work = true },
 
   -- pickers
   fff = { home = true, work = true },
