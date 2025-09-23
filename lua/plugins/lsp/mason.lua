@@ -8,8 +8,7 @@ return {
 
         -- LSP servers
         "lua-language-server",
-        "pyright",
-        "ruff-lsp",
+        "basedpyright",
         "bash-language-server",
         "json-lsp",
         "yaml-language-server",
