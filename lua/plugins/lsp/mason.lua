@@ -22,8 +22,6 @@ return {
 
         -- Formatters & linters used by conform
         "stylua",
-        "prettierd",
-        "prettier",
         "biome",
         "eslint_d",
         "ruff",
